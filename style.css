@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #f8fafc;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw600{
+    font-weight: 600;
+}
+.header .title-name{
+    padding-block: 60px;
+    justify-content: center;
+   display: flex;
+   gap: 40px;
+   font-size: 60px;
+   letter-spacing: 20px;
+}
+.header .jobtitle{
+    border-top: 1px solid rgba(186, 186, 186, 0.742);
+    border-bottom: 1px solid rgba(186, 186, 186, 0.742);
+    width: 98%;
+    margin-inline: auto;
+    padding-block: 10px;
+}
+.header .jobtitle p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.resume{
+ 
+    margin-inline: auto;
+    margin-block: 40px 80px;
+}
+.resume .container{
+    display: flex;
+    
+}
+.sub-container1{
+    width: 42%;
+    border-right: 1px solid rgba(186, 186, 186, 0.742);
+    padding-inline: 20px;
+}
+.sub-container2{
+    width: 58%;
+    padding-inline: 20px;
+}
+.title-sub{
+    margin-block:40px 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.major-title{
+    font-size: 18px;
+}
+.contact-link{
+    color: rgb(31, 31, 31);
+}
